@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--説明-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link href="suzuki.css"
+  rel="stylesheet"
+  type="text/css"
+  charset="utf-8" />
+  
+
+  <title>料理人鈴木勇・Technology</title>
+  
+  <!--javascript-->
+  <script type="text/javascript">
+    
+    <!--左-->
+    $(function(){
+
+      $("img#left").click(function(){
+        $("#text").html("<p><font color='#ED2A31'>＞五輪の厨房で初めて実用的に冷凍食品が使われたという記事を見たのですが？</font></p><p>冷凍食品については村上さん達ホテルの関係者がね、もう数年前から研究していて、それで1年か2年くらい前から食材をニチレイさんと協力しあってテストやって。</p><p>（大切なのは）解凍方法なんですよ。</p><p>たとえばマイナス40℃で凍らせるでしょ、そうした品物を常温にポって置いたらみんな水分出ちゃうよね。そうすると美味しくなくなっちゃうね。だから冷蔵庫の中で生と同じような状態にするにはっていうことを随分研究したみたいですね。</p><p><font color='#ED2A31'>＞冷蔵庫の中で解凍するんですか。</font></p><p>そう、冷凍庫から冷蔵庫に移してね。いきなり常温にしちゃうと……ちょっとね。当時は10月っていうと秋。秋真っ盛りの時ですよ。今秋なくなっちゃったけどさあ。</p><p><font color='#ED2A31'>＞そうですね、急になりますね冬に。</font></p><p>だけど当時は選手村の中にプールがあって、リラックスするために選手たちがプールで泳いでいたりしてさ、そうやってましたからね。その温度の中でいきなり冷凍のものを出したりするとやっぱり品質も悪くなる。</p><p>あともうひとつの、何故冷凍食品を使ったかってことになると、東京ですから（仕入れに）築地市場を使うわけですよね。</p><p>築地の市場で毎日毎日7200人の食材を買いに行ってやってたら市場一般の人達の品物が無くなっちゃうわけですよ。それをどうするかってことがメインだったみたいですよ。だから冷凍して出来るものは前から徐々に徐々に冷凍しておいて、ストックをしておいて、それを溶かしながら使いましょうってことでした。そうすると市場に直接ものすごい影響は無くなるわけですよね。</p><p><font color='#ED2A31'>＞じゃあそれまでは、たとえば鈴木さんご自身が働いていらっしゃったお店では、まだ冷凍食品を使う必要は無かったんですよね。</font></p><p>いや海老だとかは当時冷凍だったね。外国からきていましたから。</p><p>それで当時ね、びっくりしたのは、今牛乳とかジュースってさ、紙パック当たり前じゃないですか、（初めて選手村の厨房で）あれ見てすごい感動したね。</p><p>朝牛乳くるじゃないですか、すると五合瓶なんですよ。それガラスの瓶なの。だから（自分たちが店の冷蔵庫で）入れ替えやるときに割っちゃうんですよね、ぶつかったりして。</p><p>だけど紙パックだったら割れないじゃないですか。だから「これが日本でも出来たらいいなあって」思ったんですけどね。</p><p><font color='#ED2A31'>＞ああ、日本のじゃなくて外国のなんですね。</font></p><p>外国から輸入ですね。当時はパックっていうのは無かったんです、日本には。</p><p>だから当時は「紙の使用量は文化のバロメーター」って言われてたの。今はパソコンとかITになっちゃったけど、当時は本でも新聞でもなんでも紙使うから。学校だってそうでしょ、ノートでも本でも全部紙使うでしょ。使う量だけ（文明が）進んでるってことだったんですよ。</p><p><font color='#ED2A31'>＞今と逆ですね。</font></p><p>そう。</p><p>新幹線開通がオリンピックと同時期であることから</p><p><font color='#ED2A31'>＞初めて新幹線を知った時はどんな感じでしたか？</font></p><p>僕乗り物酔いするから。自分で車運転すると気持ち悪くならないの、だけど電車一駅でも気持ち悪くなっちゃう。だから新幹線は絶対乗らないと思ったの。今乗るけどね（笑）。</p>");
+      });
+      $("img#right").click(function(){
+        $("#text").html("<p>冷凍っていうと今は電子レンジがすごく良くなっているんですよ。ですから温度差でもってさ、だから200℃500℃700℃って温度に出来るのね。熱するときには700度でとか、解凍のときは200℃でもってやるから。</p><p>今の家庭の主婦の方でもすごく上手になりましたよね、冷凍食品の使い方。</p>");
+      });
+      $("img#right").click(function(){  $(this).attr("src","icon/2020_on.png");
+        $("img#left").attr("src","icon/1964_off.png");
+      });
+      $("img#left").click(function(){  $(this).attr("src","icon/1964_on.png");
+        $("img#right").attr("src","icon/2020_off.png");
+      });
+      
+    });
+    
+    <!--右-->
+    $(function(){
+      <!--写真の切り替えのバッタン効果-->
+      $("#div5 img").click(function(){
+        $("#div5 img").attr("src","icon/point_off.png");
+      });
+      $("#div5 img").click(function(){
+        $(this).attr("src","icon/point_on.png");
+      });
+      $("#div5 img").mouseout(function(){
+        $("#div5 img").attr("src","icon/point_off.png");
+      });
+      $("#div5 img").mouseover(function(){
+        $(this).attr("src","icon/point_on.png");
+      });
+
+      <!--写真の切り替え-->
+      $("#div5 a").click(function(){	
+        $("#div5 a").animate({opacity:1})
+        $(this).animate({opacity:0.6})
+        $("#div4 img").before("<img src='"+$(this).attr("href")+"' alt=''>");
+        $("#div4 img:last").fadeOut("fast",function(){
+         $(this).remove();
+       });
+        
+        
+        return false;
+      });
+    });
+  </script>
+  <!--css样式 层叠样式表-->
+  <style type="text/css">        
+    *{margin: 0;padding: 0;}
+    .logo{margin: 30px 50px;}
+  </style>
+
+</head>
+
+
+<body>
+  <a href="index.html"><img class="logo" src="icon/GORINtoHITO.png" /></a>
+  <br>
+  
+  <div class="div0">
+    
+    <!--左の記事-->
+    <div id="div1">
+      <br>
+      <img id="left" src="icon/1964_on.png" />
+      <img id="center" src="icon/technology.png"/>
+      <img id="right" src="icon/2020_off.png"/>
+      
+      <br>
+
+      <div id="text">
+        <p id="first">
+          <p><font color='#ED2A31'>＞五輪の厨房で初めて実用的に冷凍食品が使われたという記事を見たのですが？</font></p><p>冷凍食品については村上さん達ホテルの関係者がね、もう数年前から研究していて、それで1年か2年くらい前から食材をニチレイさんと協力しあってテストやって。</p><p>（大切なのは）解凍方法なんですよ。</p><p>たとえばマイナス40℃で凍らせるでしょ、そうした品物を常温にポって置いたらみんな水分出ちゃうよね。そうすると美味しくなくなっちゃうね。だから冷蔵庫の中で生と同じような状態にするにはっていうことを随分研究したみたいですね。</p><p><font color='#ED2A31'>＞冷蔵庫の中で解凍するんですか。</font></p><p>そう、冷凍庫から冷蔵庫に移してね。いきなり常温にしちゃうと……ちょっとね。当時は10月っていうと秋。秋真っ盛りの時ですよ。今秋なくなっちゃったけどさあ。</p><p><font color='#ED2A31'>＞そうですね、急になりますね冬に。</font></p><p>だけど当時は選手村の中にプールがあって、リラックスするために選手たちがプールで泳いでいたりしてさ、そうやってましたからね。その温度の中でいきなり冷凍のものを出したりするとやっぱり品質も悪くなる。</p><p>あともうひとつの、何故冷凍食品を使ったかってことになると、東京ですから（仕入れに）築地市場を使うわけですよね。</p><p>築地の市場で毎日毎日7200人の食材を買いに行ってやってたら市場一般の人達の品物が無くなっちゃうわけですよ。それをどうするかってことがメインだったみたいですよ。だから冷凍して出来るものは前から徐々に徐々に冷凍しておいて、ストックをしておいて、それを溶かしながら使いましょうってことでした。そうすると市場に直接ものすごい影響は無くなるわけですよね。</p><p><font color='#ED2A31'>＞じゃあそれまでは、たとえば鈴木さんご自身が働いていらっしゃったお店では、まだ冷凍食品を使う必要は無かったんですよね。</font></p><p>いや海老だとかは当時冷凍だったね。外国からきていましたから。</p><p>それで当時ね、びっくりしたのは、今牛乳とかジュースってさ、紙パック当たり前じゃないですか、（初めて選手村の厨房で）あれ見てすごい感動したね。</p><p>朝牛乳くるじゃないですか、すると五合瓶なんですよ。それガラスの瓶なの。だから（自分たちが店の冷蔵庫で）入れ替えやるときに割っちゃうんですよね、ぶつかったりして。</p><p>だけど紙パックだったら割れないじゃないですか。だから「これが日本でも出来たらいいなあって」思ったんですけどね。</p><p><font color='#ED2A31'>＞ああ、日本のじゃなくて外国のなんですね。</font></p><p>外国から輸入ですね。当時はパックっていうのは無かったんです、日本には。</p><p>だから当時は「紙の使用量は文化のバロメーター」って言われてたの。今はパソコンとかITになっちゃったけど、当時は本でも新聞でもなんでも紙使うから。学校だってそうでしょ、ノートでも本でも全部紙使うでしょ。使う量だけ（文明が）進んでるってことだったんですよ。</p><p><font color='#ED2A31'>＞今と逆ですね。</font></p><p>そう。</p><p>新幹線開通がオリンピックと同時期であることから</p><p><font color='#ED2A31'>＞初めて新幹線を知った時はどんな感じでしたか？</font></p><p>僕乗り物酔いするから。自分で車運転すると気持ち悪くならないの、だけど電車一駅でも気持ち悪くなっちゃう。だから新幹線は絶対乗らないと思ったの。今乗るけどね（笑）。</p>
+        </div>
+
+      </div>
+
+      <!--右の写真-->
+      <div id="div2">
+        <div id="div4">
+          <p><img src="olympic_photo/technology/t1.JPG" alt="" /></p>
+        </div>
+        <div id="div5">
+          <ul>
+           <li><a href="olympic_photo/technology/t1.JPG"><img src="icon/point_on.png" alt="1" /></a></li>
+           <li><a href="olympic_photo/technology/t2.JPG"><img src="icon/point_off.png" alt="2" /></a></li>
+
+         </ul>
+       </div>
+
+
+     </div>
+
+     
+   </div>
+   
+   
+   <!--下のアイコン-->
+   <div id="div3">
+    <a href="suzuki.html"><img class="icon" src="icon/profile_off.png"  /></a>
+    <a href="suzuki_me.html"><img class="icon" src="icon/me_off.png" /></a>
+    <a href="suzuki_olympic.html"><img class="icon" src="icon/olympic_off.png" /></a>
+    <a href="suzuki_job.html"><img class="icon" src="icon/job_off.png"/></a>
+    <a href="suzuki_food.html"><img class="icon" src="icon/food_off.png" /></a>
+    <a href="suzuki_technology.html"><img class="icon" src="icon/technology_on.png" /></a>
+    <br><br><br><br>
+    <center>Copyright © 2016 Team-センターグリル. All Rights Reserved.</center>
+  </div>
+</body>
+</html>

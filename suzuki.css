@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";  
+body {  
+    background-attachment: fixed;  
+}  
+.logo{width: 25%;min-width: 250px;}
+.div0{width:100%;min-width: 1000px; height:auto;}
+
+#div1{position: absolute;border:5px solid #ED2A31; float:left;margin-left: 110px; height:500px; width:40%;min-width: 400px; position: relative;display: block;}
+#text{text-align: left; height:85%; width:100%;overflow-y:scroll;}
+
+#left{width: 25%;}
+#center{width: 25%;margin: auto;text-align: center;}
+#right{width: 25%;float: right;}
+
+#div1 p{font-size: 18px;text-indent:1em;margin: 30px;}
+#div1 img{width: 105;height: 33;}
+#title{margin-top: 20px; margin-left: 250px;}
+
+
+#div2{position: absolute; border:5px solid #B99049; float:left;margin-left: 50px;height:500px;width:40%;min-width: 400px;position: relative;}
+#div4 img{position:absolute;margin: 25px;width:90%;z-index:1;}
+#div4 img {
+    -webkit-filter: saturate(0%);
+    -moz-filter: saturate(0%);
+    -o-filter: saturate(0%);
+    -ms-filter: saturate(0%);
+    filter: saturate(0%);
+    transition: all 300ms 0s ease;
+    width: 550;
+}
+
+#div4 img:hover {
+	-webkit-filter: saturate(100%);
+	-moz-filter: saturate(100%);
+	-o-filter: saturate(100%);
+	-ms-filter: saturate(100%);
+	filter: saturate(100%);
+}
+#largeImg{
+    display: none; z-index:1
+}
+#div5{width:70%;position: absolute; margin:400px 100px;}
+#div5 ul li{ margin-left: 10px; list-style: none;float: left;}
+#copyright{text-align: center;}
+
+#div3{ float:left;margin-top: 30px; margin-left: 90px; height:300px; width:100%;min-width: 1000px; position: relative;padding: 0px;}
+#div3 .icon{width: 11%; margin: 20px;}
+
+
+#text {
+    
+}
